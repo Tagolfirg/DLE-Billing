@@ -344,3 +344,5 @@
 /engine/skins/images/rkl.png
 /engine/skins/images/user_bg3.jpg
 /nbproject/
+/engine/modules/billing/payments/qiwi/
+/pay.logger.php
