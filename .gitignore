@@ -347,3 +347,9 @@
 /engine/modules/billing/payments/qiwi/
 /pay.logger.php
 /templates/Default/billing/icons/qiwi.png
+/engine/data/billing/payment.payeer.php
+/engine/data/billing/plugin.prcode.php
+/engine/data/billing/plugin.bonuses.php
+/engine/data/billing/payment.webmoney.php
+/engine/data/billing/payment.yandex.php
+/engine/data/billing/payment.qiwi.php

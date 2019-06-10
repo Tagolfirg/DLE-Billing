@@ -199,7 +199,7 @@ Class USER{
 		#
 		$DATA = $this->ClearData( $_REQUEST );
                 if(empty($DATA)){ //если данных в запросе нет, то достаем их из тела запроса
-                   $DATA = (array)json_decode(file_get_contents("php://input"));
+                   $DATA = json_decode(file_get_contents("php://input"),true);
                    $DATA['headers'] = apache_request_headers();
                 }
 
