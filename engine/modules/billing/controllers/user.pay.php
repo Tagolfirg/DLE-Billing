@@ -198,6 +198,10 @@ Class USER{
 		# .. полученные данные
 		#
 		$DATA = $this->ClearData( $_REQUEST );
+                if(empty($DATA)){ //если данных в запросе нет, то достаем их из тела запроса
+                   $DATA = (array)json_decode(file_get_contents("php://input"));
+                   $DATA['headers'] = apache_request_headers();
+                }
 
 		$this->logging( 1, str_replace("\n", "<br>", print_r( $DATA, true )) );
 
@@ -231,7 +235,7 @@ Class USER{
 
 			# .. номер квитанции
 			#
-			$CheckID = $Paysys->check_id( $DATA );
+			$CheckID = $Paysys->check_id($DATA);//!!! check_id заменить на getOrderId
 
 			if( in_array('check_payer_requisites', get_class_methods($Paysys) ) )
 			{

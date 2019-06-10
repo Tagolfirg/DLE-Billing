@@ -346,3 +346,4 @@
 /nbproject/
 /engine/modules/billing/payments/qiwi/
 /pay.logger.php
+/templates/Default/billing/icons/qiwi.png
