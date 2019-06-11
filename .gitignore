@@ -320,7 +320,7 @@
 /engine/data/billing/payment.webmoney.php
 /engine/data/billing/payment.yandex.php
 /engine/data/billing/payment.qiwi.php
-/engine/data/billing/payment.qiwi-p2p.php
+/engine/data/billing/payment.qiwip2p.php
 /engine/data/billing/plugin.paygroups_list.php
 /engine/data/billing/.gitkeep
 /engine/data/billing/config.php
@@ -331,7 +331,7 @@
 /engine/modules/billing/payments/webmoney/
 /engine/modules/billing/payments/interkassa/
 /engine/modules/billing/payments/yandex/
-/engine/modules/billing/payments/qiwi-p2p/
+/engine/modules/billing/payments/qiwip2p/
 /engine/modules/billing/payments/qiwi/
 /engine/modules/billing/plugins/paygroups/
 /engine/modules/billing/plugins/bonuses/
@@ -355,4 +355,4 @@
 /templates/Default/billing/icons/zpayment.png
 /templates/Default/billing/icons/liqpay.png
 /templates/Default/billing/icons/qiwi.png
-/templates/Default/billing/icons/qiwi-p2p.png
+/templates/Default/billing/icons/qiwip2p.png

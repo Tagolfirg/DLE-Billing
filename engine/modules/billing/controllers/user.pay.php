@@ -155,7 +155,18 @@ Class USER{
                 if( file_exists( MODULE_PATH . '/payments/' . $Invoice['invoice_paysys'] . "/adm.settings.php" ) ){
                     require_once MODULE_PATH . '/payments/' . $Invoice['invoice_paysys'] . '/adm.settings.php';
                     if( $this->DevTools->config['redirect'] ){
-                        $RedirectForm = '<script type="text/javascript">window.onload = function(){document.getElementById("paysys_form").submit();}</script>';
+                        
+                        $RedirectForm = '<script type="text/javascript">'
+                                . 'window.onload = function(){'
+                                . 'var paysys_form=document.getElementById("paysys_form");'
+                                . 'var paysys_link=document.getElementById("paysys_link");'
+                                . 'if(paysys_form){'
+                                . 'document.getElementById("paysys_form").submit();'
+                                . '}else if{paysys_link}'
+                                . 'document.location.href = paysys_link.href;'
+                                . '}'
+                                . '}'
+                                . '</script>';
                     }else{
                         $RedirectForm = '';
                     }
