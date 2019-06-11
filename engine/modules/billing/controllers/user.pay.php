@@ -162,7 +162,7 @@ Class USER{
                                 . 'var paysys_link=document.getElementById("paysys_link");'
                                 . 'if(paysys_form){'
                                 . 'document.getElementById("paysys_form").submit();'
-                                . '}else if{paysys_link}'
+                                . '}else if(paysys_link){'
                                 . 'document.location.href = paysys_link.href;'
                                 . '}'
                                 . '}'
