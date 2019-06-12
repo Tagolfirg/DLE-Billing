@@ -322,7 +322,6 @@
 /engine/data/billing/payment.qiwi.php
 /engine/data/billing/payment.qiwip2p.php
 /engine/data/billing/plugin.paygroups_list.php
-/engine/data/billing/.gitkeep
 /engine/data/billing/config.php
 /engine/data/billing/plugin.paygroups.php
 /engine/data/billing/plugin.refund.php
