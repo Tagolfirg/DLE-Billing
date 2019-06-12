@@ -244,11 +244,11 @@ Class USER{
 
 			# .. номер квитанции
 			#
-			$CheckID = $Paysys->check_id($DATA);//!!! check_id заменить на getOrderId
+			$CheckID = $Paysys->getId($DATA);//!!! check_id заменить на getOrderId
 
-			if( in_array('check_payer_requisites', get_class_methods($Paysys) ) )
+			if( in_array('getPayerRequisites', get_class_methods($Paysys) ) )
 			{
-				$CheckPayerRequisites = $Paysys->check_payer_requisites( $DATA );
+				$CheckPayerRequisites = $Paysys->getPayerRequisites( $DATA );
 			}
 
 			if( ! intval( $CheckID ) )

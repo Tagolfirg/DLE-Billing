@@ -65,7 +65,7 @@ Class Payment
 
 	}
 
-	function check_id( $data )
+	function getId( $data )
 	{
 		return $data["InvId"];
 	}
