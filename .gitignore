@@ -356,3 +356,5 @@
 /templates/Default/billing/icons/liqpay.png
 /templates/Default/billing/icons/qiwi.png
 /templates/Default/billing/icons/qiwip2p.png
+/logs/
+/qiwi_log.txt
