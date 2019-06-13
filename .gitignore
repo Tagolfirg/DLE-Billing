@@ -356,3 +356,13 @@
 /templates/Default/billing/icons/qiwip2p.png
 /logs/
 /qiwi_log.txt
+/install.php
+/templates/smartphone/
+/templates/Green/
+/templates/Red/
+/engine/ajax/controller.php
+/engine/ajax/plugins.php
+/engine/inc/upgrade/
+/engine/skins/images/plugins.png
+/engine/inc/upgrade.php
+/engine/inc/plugins.php
