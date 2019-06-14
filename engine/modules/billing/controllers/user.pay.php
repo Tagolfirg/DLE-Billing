@@ -122,10 +122,10 @@ Class USER{
     }
     # Страницы результата оплаты
     #
-    function ok(){
+    function success(){
         return $this->DevTools->Show( $this->DevTools->ThemeLoad( "pay/success" ) );
     }
-    function bad(){
+    function fail(){
         return $this->DevTools->Show( $this->DevTools->ThemeLoad( "pay/fail" ) );
     }
     # Квитанция, переход к оплате
