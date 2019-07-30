@@ -7,7 +7,7 @@
  * @copyright     Copyright (c) 2019, pligin
  */
 
-Class Payment
+Class RoboKassa
 {
 	var $doc = 'https://dle-billing.ru/platezhnye-sistemy/11-robokassa.html';
 
@@ -94,5 +94,4 @@ Class Payment
 	}
 }
 
-$Paysys = new Payment;
-?>
+$Paysys = new RoboKassa;
