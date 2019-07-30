@@ -366,3 +366,7 @@
 /engine/skins/images/plugins.png
 /engine/inc/upgrade.php
 /engine/inc/plugins.php
+/install/
+/engine/modules/billing/plugins/payhide/
+/engine/data/billing/plugin.fixednews.php
+/templates/Torrentino/

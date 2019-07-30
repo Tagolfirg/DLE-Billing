@@ -209,10 +209,6 @@ Class USER{
 		# .. полученные данные
 		#
 		$DATA = $this->ClearData($_REQUEST);
-                $DATA['body_request'] = json_decode(file_get_contents("php://input"),true);
-                $DATA['headers'] = apache_request_headers();
-
-		$this->logging( 1, str_replace("\n", "<br>", print_r( $DATA, true )) );
 
 		# Проверка ключа
 		#
