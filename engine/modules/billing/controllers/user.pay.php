@@ -240,7 +240,7 @@ Class USER{
 
 			# .. номер квитанции
 			#
-			$CheckID = $Paysys->getId($DATA);//!!! check_id заменить на getOrderId
+			$CheckID = $Paysys->check_id($DATA);//!!! check_id заменить на getOrderId
 
 			if( in_array('getPayerRequisites', get_class_methods($Paysys) ) )
 			{
